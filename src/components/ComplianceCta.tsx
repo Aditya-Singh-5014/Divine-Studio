@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function ComplianceCta() {
   return (
     <section className="bg-[#3f533c] py-18 text-center sm:py-24">
@@ -12,10 +14,11 @@ export default function ComplianceCta() {
           We&apos;re happy to share certification copies, audit reports, and
           material safety documentation with verified buyers and partners.
         </p>
-        <button className="button-primary mt-8 min-w-[120px]">
+        <Link href="/contact" className="button-primary mt-8 inline-flex min-w-[120px]">
           Get in touch
-        </button>
+        </Link>
       </div>
     </section>
   );
 }
+

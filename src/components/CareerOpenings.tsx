@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const openings = [
   {
     title: "Production Manager",
@@ -41,12 +43,12 @@ export default function CareerOpenings() {
                   </p>
                 </div>
 
-                <a
-                  href="#"
+                <Link
+                  href="/contact"
                   className="text-[11px] font-semibold uppercase tracking-[0.24em] text-[#8e987c] transition hover:text-[#5f6f4d]"
                 >
                   Apply →
-                </a>
+                </Link>
               </article>
             ))}
           </div>

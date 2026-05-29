@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function ExportCta() {
   return (
     <section className="bg-white py-16 sm:py-20">
@@ -13,12 +15,12 @@ export default function ExportCta() {
           </p>
 
           <div className="mt-8 flex flex-wrap justify-center gap-4">
-            <button className="button-primary min-w-[150px]">
+            <Link href="/contact" className="button-primary min-w-[150px]">
               Request Catalogue
-            </button>
-            <button className="button-dark min-w-[126px] rounded-full px-8">
+            </Link>
+            <Link href="/contact" className="button-dark min-w-[126px] rounded-full px-8">
               Get in touch
-            </button>
+            </Link>
           </div>
         </div>
       </div>

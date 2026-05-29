@@ -65,9 +65,9 @@ export default function Navbar() {
             >
               <Search className="h-4 w-4" />
             </button>
-            <button className="hidden rounded-full bg-[color:var(--color-primary)] px-4 py-2 text-[11px] font-semibold text-white transition hover:bg-[color:var(--color-primary-hover)] sm:inline-flex sm:px-5 sm:py-2.5">
+            <Link href="/contact" className="hidden rounded-full bg-[color:var(--color-primary)] px-4 py-2 text-[11px] font-semibold text-white transition hover:bg-[color:var(--color-primary-hover)] sm:inline-flex sm:px-5 sm:py-2.5">
               Request Catalogue
-            </button>
+            </Link>
             {/* Mobile hamburger */}
             <button
               className="rounded-full p-2 text-[#434c3e] transition hover:bg-[#f6f1e6] lg:hidden"
@@ -101,9 +101,9 @@ export default function Navbar() {
               {item.label}
             </Link>
           ))}
-          <button className="mt-3 w-full rounded-full bg-[color:var(--color-primary)] py-2.5 text-[12px] font-semibold text-white transition hover:bg-[color:var(--color-primary-hover)]">
+          <Link href="/contact" onClick={() => setMobileOpen(false)} className="mt-3 block w-full rounded-full bg-[color:var(--color-primary)] py-2.5 text-center text-[12px] font-semibold text-white transition hover:bg-[color:var(--color-primary-hover)]">
             Request Catalogue
-          </button>
+          </Link>
         </div>
       )}
     </nav>

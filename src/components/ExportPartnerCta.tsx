@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function ExportPartnerCta() {
   return (
     <section className="bg-[#3f533c] py-18 text-center sm:py-24">
@@ -9,11 +11,12 @@ export default function ExportPartnerCta() {
           Let&apos;s build something beautiful together. Share your requirements
           and our export desk will respond within 24 hours.
         </p>
-        <button className="button-primary mt-8 min-w-[140px] px-8 py-3.5">
+        <Link href="/contact" className="button-primary mt-8 inline-flex min-w-[140px] px-8 py-3.5">
           Start an Enquiry
-        </button>
+        </Link>
       </div>
     </section>
   );
 }
+
 
