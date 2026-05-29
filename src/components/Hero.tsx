@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Hero() {
   return (
     <section className="relative flex min-h-[860px] items-end overflow-hidden bg-[#5c512e] pt-[72px]">
@@ -34,12 +36,12 @@ export default function Hero() {
           </p>
 
           <div className="mt-8 flex flex-wrap gap-4">
-            <button className="button-primary min-w-[148px]">
-              Explore Collection
-            </button>
-            <button className="button-secondary min-w-[130px]">
+            <Link href="/products" className="button-primary min-w-[148px]">
+              Explore Collections
+            </Link>
+            <Link href="/export" className="button-secondary min-w-[130px]">
               Export Enquiry
-            </button>
+            </Link>
           </div>
         </div>
       </div>

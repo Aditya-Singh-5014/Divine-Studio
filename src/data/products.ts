@@ -9,8 +9,7 @@ export const productItems: ProductItem[] = [
   {
     title: "Office Organizer",
     description: "Refined wooden organizers for the modern workspace.",
-    image:
-      "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?q=80&w=900&auto=format&fit=crop",
+    image: "/Office Organizer.png",
     category: "Office Organizers",
   },
   {
@@ -28,7 +27,7 @@ export const productItems: ProductItem[] = [
   {
     title: "Kitchen & Dining",
     description: "Daily rituals, elevated through honest materials.",
-    image: "/Charcuterie Board.png",
+    image: "/Kitchen & Dining.png",
     category: "Kitchen Utility Item",
   },
   {
@@ -52,7 +51,7 @@ export const productItems: ProductItem[] = [
   {
     title: "Home Decor",
     description: "Statement pieces that complete a considered home.",
-    image: "/Craftsmanship.png",
+    image: "/Home Decor.png",
     category: "Home Decor",
   },
   {
